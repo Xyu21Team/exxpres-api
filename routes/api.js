@@ -26,6 +26,7 @@ const ryzen = require("../lib/listdl")
 var error = __path + '/view/error.html'
 let creator = 'NeofetchNpc!'
 
+// JARAK
 // Bagian Logs - Error Dll
 loghandler = {
 	error: {
