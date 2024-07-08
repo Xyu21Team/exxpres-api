@@ -1,7 +1,7 @@
 {
   "name": "rest-api",
   "version": "1.0.0",
-  "description": "Ryzen rest API",
+  "description": "Npc rest API",
   "main": "main.js",
   "type": "commonjs",
   "scripts": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShirokamiRyzen/Ryzen-RestAPI.git"
+    "url": "https://github.com/NeofetchNpc/exxpres-api.git"
   },
   "keywords": [
     "Express"
   ],
-  "author": "Shirokami Ryzen",
+  "author": "NeofetchNpc",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
