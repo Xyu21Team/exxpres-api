@@ -9,7 +9,6 @@ const FormData = require('form-data')
 const baseUrl = 'https://tools.betabotz.org'
 const { toanime, tozombie } = require(__path + "/lib/turnimg.js")
 const request = require('request')
-const { openai } = require(__path + "/lib/openai.js")
 const dylux = require('api-dylux')
 const textto = require('soundoftext-js')
 const googleIt = require('google-it')
