@@ -228,20 +228,6 @@ router.get('/downloader/sfilemobi', async (req, res, next) => {
 
 // JARAK
 // ***SEARCH***
-router.get('/search/npmsearch', async (req, res, next) => {
-	var text1 = req.query.query
-	if (!text1) return res.json({ status: false, creator: `${creator}`, message: "[!] enter query parameter!" })
-	dylux.npmSearch(text1).then((data) => {
-		if (!data) return res.json(loghandler.notfound)
-		res.json({
-			status: true,
-			creator: `${creator}`,
-			result: data
-		})
-	}).catch((err) => {
-		res.sendFile(error)
-	})
-})
 router.get('/search/pinterest', async (req, res, next) => {
 	var text1 = req.query.text
 	if (!text1) return res.json({ status: false, creator: `${creator}`, message: "[!] masukan parameter text" })
